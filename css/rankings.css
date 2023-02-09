@@ -1,0 +1,33 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: lightyellow;
+}
